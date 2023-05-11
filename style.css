@@ -1,0 +1,89 @@
+body {
+  font-family: 'Caveat', cursive;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-image: url("./assets/images/fondo.jpg");
+}
+.main {
+  flex: 1;
+  
+}
+
+.logo{
+  width: 10%;
+  height: 10%;
+  margin: 0;
+}
+
+.creativo{
+  color: blueviolet;
+}
+
+.card{
+  width: 45%;
+}
+
+.left{
+  display: inline;
+  float: left;
+}
+
+.right{
+  display: inline;
+  float: right;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: black;
+  margin-top: 0%;
+}
+
+p{
+  color: floralwhite;
+  font-size: larger;
+}
+
+h2{
+  color: black;
+}
+
+.tile-image{
+  float: left;
+  padding:8px 8px 20px 8px;
+  background-color: #ffffff72;
+  width: 200px;
+  border: 1px solid #999999;
+  margin-right: 15px;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: right;
+  margin-top: 5%;
+}
+
+@media (max-width: 680px){
+  h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .card{
+    display: block;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 30%;
+  }
+
+  .tile-image{
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline;
+  }
+}
